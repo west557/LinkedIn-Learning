@@ -1,0 +1,37 @@
+{
+  "name": "test-npm",
+  "version": "1.0.0",
+  "description": "test project for npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "nodemonthis": "nodemon ./index.js --exec babel-node -e js",
+    "createangularapp": "npx -p @angular/cli ng new myapp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/west557/LinkedIn-Learning.git"
+  },
+  "author": "Scott West",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/west557/LinkedIn-Learning/issues"
+  },
+  "homepage": "https://github.com/west557/LinkedIn-Learning#readme",
+  "dependencies": {
+    "create-react-app": "^4.0.3",
+    "express": "^4.17.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-html-reporter": "^1.6.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
